@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "ngoclung/custom-logviewer": "dev-master",
+        "ngoclung/custom-logviewer": "master",
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*|5.*"
     },
@@ -28,5 +28,5 @@
             "Rap2hpoutre\\LaravelLogViewer\\": "src/"
         }
     },
-#    "minimum-stability": "stable"
+    "minimum-stability": "master"
 }
