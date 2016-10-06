@@ -1,22 +1,38 @@
 {
-    "name": "ngoclung/custom-logviewer",
+    "name": "rap2hpoutre/laravel-log-viewer",
     "description": "A Laravel log reader",
     "license": "MIT",
     "keywords": ["log", "log-reader", "log-viewer", "logging", "laravel", "lumen"],
     "authors": [
         {
-            "name": "ngoc.tran",
-            "email": "ngoclung281189@gmail.com"
+            "name": "rap2hpoutre",
+            "email": "raphaelht@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/ngoclung/custom-logviewer"
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "ngoclung/custom-logviewer",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/ngoclung/custom-logviewer.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "classmap": [
+                   "src/controllers"
+               ],
+               "psr-0": {
+                  "Rap2hpoutre\\LaravelLogViewer\\": "src/"
+                }
+            },
+            "minimum-stability": "master"
         }
-    ],
+    }
+],
     "require": {
-        "ngoclung/custom-logviewer": "master",
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*|5.*"
     },
@@ -28,5 +44,5 @@
             "Rap2hpoutre\\LaravelLogViewer\\": "src/"
         }
     },
-    "minimum-stability": "master"
+    "minimum-stability": "stable"
 }
