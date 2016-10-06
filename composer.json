@@ -1,12 +1,12 @@
 {
-    "name": "rap2hpoutre/laravel-log-viewer",
+    "name": "ngoclung/custom-logviewer",
     "description": "A Laravel log reader",
     "license": "MIT",
     "keywords": ["log", "log-reader", "log-viewer", "logging", "laravel", "lumen"],
     "authors": [
         {
-            "name": "rap2hpoutre",
-            "email": "raphaelht@gmail.com"
+            "name": "ngoc.tran",
+            "email": "ngoclung281189@gmail.com"
         }
     ],
     "require": {
